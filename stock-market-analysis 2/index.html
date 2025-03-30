@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Market Analysis</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Stock Market Analysis</h1>
+    </header>
+
+    <main>
+      <section class="sec-chart">
+        <div class="stock-chart">
+          <div id="chart-container">
+            <canvas id="chart-canvas"></canvas>
+          </div>
+          <div id="stock-btns">
+            <button id="btn1d">1 Month</button>
+            <button id="btn1mo">3 Month</button>
+            <button id="btn1y">1 Year</button>
+            <button id="btn5y">5 Years</button>
+          </div>
+        </div>
+
+        <div id="chart-details">
+          <div class="cd-hdr">
+            <h3>
+              <span id="st-name">PYPL</span>
+              <span id="st-pf">0.09%</span>
+              <span id="st-bv">$17.699</span>
+            </h3>
+            <p id="st-summ">
+              Lorem ipsum dolor sit amet consectetur ais consectetur, deserunt
+              atque asperiores eveniet assumenda dicta aliquam exercitationem!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="sec-chart-list" class="sec-chart-list">
+        <ul>
+          <li>
+            <span id="st-name">PYPL</span>
+            <span id="st-pf">0.09%</span>
+            <span id="st-bv">$17.699</span>
+          </li>
+          <li>
+            <span id="st-name">AAPL</span>
+            <span id="st-pf">0.09%</span>
+            <span id="st-bv">$14.699</span>
+          </li>
+          <li>
+            <span id="st-name">FHD</span>
+            <span id="st-pf">0.09%</span>
+            <span id="st-bv">$14.699</span>
+          </li>
+          <li>
+            <span id="st-name">KFKD</span>
+            <span id="st-pf">0.09%</span>
+            <span id="st-bv">$1.699</span>
+          </li>
+          <li>
+            <span id="st-name">EIEITI</span>
+            <span id="st-pf">0.09%</span>
+            <span id="st-bv">$7.699</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
